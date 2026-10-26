@@ -1,0 +1,19 @@
+# Raw data (too large for git; the notebook downloads it with kagglehub)
+games.csv
+games.json
+*.zip
+
+# Python / uv
+.venv/
+__pycache__/
+*.py[cod]
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS / editors
+Thumbs.db
+desktop.ini
+.DS_Store
+.vscode/
+.idea/
