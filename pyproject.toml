@@ -16,3 +16,8 @@ dependencies = [
 
 [tool.uv]
 system-certs = true
+
+[dependency-groups]
+dev = [
+    "nbstripout>=0.9.1",
+]
