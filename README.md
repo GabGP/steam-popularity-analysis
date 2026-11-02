@@ -8,7 +8,7 @@ The whole analysis is in [`Steam_Popularity_Analysis.ipynb`](Steam_Popularity_An
 |---|---|
 | Linear regression (OLS, 41 variables) | 0.488 |
 | Gradient Boosting | 0.624 |
-| Kumo Tabular (NVIDIA) | 0.682 |
+| Kumo Tabular (NVIDIA) | 0.681 |
 
 ## Data
 
