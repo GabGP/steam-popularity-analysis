@@ -21,3 +21,15 @@ system-certs = true
 dev = [
     "nbstripout>=0.9.1",
 ]
+kumo = [
+    "structured-data-models",
+    "torch>=2.7",
+]
+
+[tool.uv.sources]
+torch = { index = "pytorch-cu130" }
+
+[[tool.uv.index]]
+name = "pytorch-cu130"
+url = "https://download.pytorch.org/whl/cu130"
+explicit = true
